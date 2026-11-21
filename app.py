@@ -1,8 +1,3 @@
-"""Student Success Predictor - Streamlit app.
-
-The app never trains models. Developers train offline with `train.py`, which writes versioned
-bundles to models/ and updates models/registry.json. The app loads, compares and serves those versions.
-"""
 import hmac
 import io
 import json
