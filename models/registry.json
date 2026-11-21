@@ -1,0 +1,31 @@
+{
+  "active": "v2",
+  "versions": [
+    {
+      "version": "v1",
+      "created": "2026-11-21 08:14 UTC",
+      "notes": "Baseline: class-weighted Random Forest on de-duplicated data",
+      "model_name": "Class-weighted Random Forest",
+      "records": 2698,
+      "accuracy": 0.8158,
+      "balanced_accuracy": 0.8101,
+      "precision": 0.8718,
+      "recall": 0.8315,
+      "f1": 0.8512,
+      "roc_auc": 0.8847
+    },
+    {
+      "version": "v2",
+      "created": "2026-11-21 08:15 UTC",
+      "notes": "Soft-voting ensemble (HGB + RF + ET), +1.3 pts accuracy over v1",
+      "model_name": "Soft-voting ensemble (HistGradientBoosting + class-weighted RF + Extra Trees)",
+      "records": 2698,
+      "accuracy": 0.8277,
+      "balanced_accuracy": 0.8135,
+      "precision": 0.862,
+      "recall": 0.8666,
+      "f1": 0.8643,
+      "roc_auc": 0.8895
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Red-accent theme. The app's banner button switches each viewer between light and dark.
+[theme]
+base = "light"
+primaryColor = "#E53935"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FFF5F5"
+textColor = "#1F2933"
+font = "sans-serif"
+baseRadius = "0.75rem"
